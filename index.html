@@ -12,7 +12,7 @@
     <h1>Recibo Telefonico</h1>
     
     <div class="contenedor">
-
+        <form action="">
       <label for="Minutos">Minutos de llamadas a celular: (1.00c/u)</label><input type="number">
       <hr color="green">
       <div class="texto">Tipo de Plan</div>
@@ -41,9 +41,20 @@
 
       <hr color="green">
       <div class="texto">Paquetes</div>
+        <label for="datalist_input"></label>
+        <input type="text" list="items" id="datalist_input">
+        <datalist id="items">
+            <option value="Residencial"></option>
+            <option value="Pymes"></option>
+            <option value="Empresas"></option>
+        </datalist>
 
       <hr color="green">
       <button class="btn">Calcular</button>
+
+        </form>
+
+
  
     </div>
 
