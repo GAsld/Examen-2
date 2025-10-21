@@ -1,0 +1,30 @@
+body{
+background-color: rgb(202, 227, 200);
+text-align: center;
+}
+
+h1{
+    text-shadow: 20px;
+}
+
+.btn{
+
+text-align: center;
+color: brown;
+}
+    .contenedor{
+        background-color: rgb(212, 252, 204);
+        color: black;
+        width: 500px;
+        padding: 12px;
+        margin: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        border: 4px solid rgb(41, 68, 19);
+    }
+    .texto{
+        font-size: medium;
+        color: rgb(41, 68, 19);
+        text-align: left;
+    }
